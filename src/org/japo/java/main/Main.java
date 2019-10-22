@@ -22,7 +22,7 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        
+        // Declaramos constante
         final String SALUDO_CONSTANTE = "¡Hola Mundo!";
         
         //Added another different output 
@@ -30,10 +30,17 @@ public class Main {
         saludoConstante = "Hola";
         
         System.out.println(saludoConstante);
+        
+        //Esto es un simple ejemplo de lo que pasa si cambiamos el valor
+        //de una variable una vez inicializado al principio del programa.
+        
+        //Con este saludoConstante el valor inicial que era Hola pasa a ser Adios
         saludoConstante = "Adios";
         
 
-        // Mensaje
+        // Mensaje. Imprime constante SALUDO_CONSTANTE
+        // y el nuevo valor de saludoConstante
+        
         System.out.println(SALUDO_CONSTANTE);
         System.out.println(saludoConstante);
         
